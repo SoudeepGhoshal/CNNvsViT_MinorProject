@@ -20,7 +20,7 @@ from tensorflow.keras.callbacks import ModelCheckpoint, EarlyStopping, ReduceLRO
 
 MODEL_PATH = 'model/cnn_pruning.keras'
 CLASS_NAME_PATH = 'model/class_names.npy'
-DATA_PATH = 'data/indoorCVPR_09'
+DATA_PATH = 'archive/indoorCVPR_09/Images'
 MODEL_ARCH_PATH = 'model/model_architecture.png'
 
 for path in [MODEL_PATH, CLASS_NAME_PATH, MODEL_ARCH_PATH]:
