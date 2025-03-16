@@ -1,5 +1,6 @@
-import tensorflow as tf
+import os
 
+import tensorflow as tf
 physical_devices = tf.config.list_physical_devices('GPU')
 if physical_devices:
     print(f"GPU device(s) available: {physical_devices}")
@@ -21,6 +22,12 @@ MODEL_PATH = 'model/cnn_pruning.keras'
 CLASS_NAME_PATH = 'model/class_names.npy'
 DATA_PATH = 'data/indoorCVPR_09'
 MODEL_ARCH_PATH = 'model/model_architecture.png'
+
+for path in [MODEL_PATH, CLASS_NAME_PATH, MODEL_ARCH_PATH]:
+    directory = os.path.dirname(path)  # Extract directory part of the path
+    if directory and not os.path.exists(directory):  # Check if directory is non-empty and doesn't exist
+        os.makedirs(directory, exist_ok=True)
+        print(f"Created directory: {directory}")
 
 
 # Custom pruning callback
