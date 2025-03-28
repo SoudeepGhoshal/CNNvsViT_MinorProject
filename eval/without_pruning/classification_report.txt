@@ -1,0 +1,73 @@
+                     precision    recall  f1-score   support
+
+     airport_inside       0.31      0.68      0.42        85
+          artstudio       1.00      0.05      0.10        20
+         auditorium       0.53      0.81      0.64        72
+             bakery       0.20      0.07      0.10        15
+                bar       0.32      0.40      0.36        25
+           bathroom       0.33      0.06      0.11        16
+            bedroom       0.50      0.47      0.48        17
+          bookstore       0.48      0.53      0.50        19
+            bowling       0.00      0.00      0.00        15
+             buffet       0.44      0.25      0.32        16
+             casino       1.00      0.20      0.33        15
+      children_room       0.48      0.67      0.56        48
+      church_inside       0.54      0.29      0.38        24
+          classroom       0.21      0.17      0.18        36
+           cloister       0.33      0.06      0.10        18
+             closet       0.30      0.18      0.23        38
+      clothingstore       0.00      0.00      0.00        14
+       computerroom       0.00      0.00      0.00        16
+       concert_hall       0.56      0.33      0.42        15
+           corridor       0.00      0.00      0.00        18
+               deli       0.00      0.00      0.00        15
+       dentaloffice       0.73      0.79      0.76        14
+        dining_room       0.37      0.37      0.37        30
+           elevator       0.36      0.33      0.35        57
+fastfood_restaurant       0.22      0.50      0.31        32
+            florist       0.21      0.18      0.19        34
+           gameroom       0.00      0.00      0.00        14
+             garage       0.50      0.14      0.22        14
+         greenhouse       0.30      0.84      0.44        64
+       grocerystore       0.00      0.00      0.00        22
+                gym       0.60      0.33      0.43        18
+          hairsalon       0.40      0.50      0.44       103
+       hospitalroom       0.00      0.00      0.00        18
+         inside_bus       0.20      0.37      0.26        38
+      inside_subway       0.27      0.38      0.32        85
+      jewelleryshop       0.00      0.00      0.00        15
+       kindergarden       0.30      0.34      0.32        99
+            kitchen       0.00      0.00      0.00        14
+      laboratorywet       0.42      0.29      0.34        35
+         laundromat       0.50      0.12      0.20        24
+            library       0.34      0.33      0.34        33
+         livingroom       0.59      0.79      0.68        24
+              lobby       0.00      0.00      0.00        24
+        locker_room       0.29      0.10      0.15        20
+               mall       0.00      0.00      0.00        15
+       meeting_room       0.83      0.19      0.30        27
+       movietheater       0.62      0.26      0.37        19
+             museum       0.51      0.76      0.61        54
+            nursery       0.65      0.71      0.68        24
+             office       0.00      0.00      0.00        15
+     operating_room       0.29      0.26      0.28        72
+             pantry       1.00      0.07      0.12        15
+         poolinside       0.25      0.06      0.10        16
+         prisoncell       0.00      0.00      0.00        22
+         restaurant       0.17      0.07      0.10        15
+ restaurant_kitchen       0.34      0.39      0.36        76
+           shoeshop       0.44      0.48      0.46        92
+         stairscase       0.40      0.60      0.48        48
+        studiomusic       0.45      0.59      0.51        22
+             subway       0.57      0.17      0.27        23
+           toystore       0.38      0.20      0.26        15
+       trainstation       0.00      0.00      0.00        21
+          tv_studio       0.52      0.52      0.52        71
+         videostore       0.33      0.21      0.26        38
+        waitingroom       0.28      0.51      0.36        53
+          warehouse       0.50      0.43      0.46        30
+         winecellar       1.00      0.27      0.42        15
+
+           accuracy                           0.37      2186
+          macro avg       0.35      0.28      0.27      2186
+       weighted avg       0.36      0.37      0.33      2186
