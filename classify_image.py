@@ -3,9 +3,9 @@ import numpy as np
 from tensorflow.keras.preprocessing.image import load_img, img_to_array
 import matplotlib.pyplot as plt
 
-MODEL_PATH = 'model/cnn_pruning.keras'
-CLASS_NAME_PATH = 'model/class_names.npy'
-IMG_PATH = 'input/image0.png' # Place the path of the image to classify
+MODEL_PATH = 'model/with_pruning/cnn_pruning.keras'
+CLASS_NAME_PATH = 'model/with_pruning/class_names.npy'
+IMG_PATH = 'inputs/image0.png' # Place the path of the image to classify
 
 class GradCamPlusPlus:
     def __init__(self, model, layer_name):
